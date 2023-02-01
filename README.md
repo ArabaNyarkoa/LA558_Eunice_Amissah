@@ -4,6 +4,9 @@ This is my LA 558 Spring 2023 Intorduction to Web Mapping and Data Visualization
 I am a graduate student in the Community and Regional Planning program and obtaining a graduate GIS certificationas well.
 
 # Class Exercises
+Exercise 1 Flight and Candy Data
+[Exercise 1](candyobservation1_EAM.jpg)
+
 This is my first try for [Exercise 2b](Exercises/map2bex.jpg)
 
 [Exercise 2b](Exercises/map2bex_2.md)
