@@ -1,6 +1,6 @@
 # This is my Exercixe 2 file
 
-#This map was made for LA558
+# This map was made for LA558
 
 ![This is the map I made](map2bex.jpg)
  
