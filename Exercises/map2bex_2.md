@@ -1,5 +1,7 @@
 # This is my Exercixe 2 file
-Some note below it
+
+#This map was made for LA558
+
 ![This is the map I made](map2bex.jpg)
  
  # This is another map
