@@ -19,6 +19,6 @@ This is my first try for [Exercise 2b](Exercises/map2bex.jpg)
 
 Link to [Google](http://www.google.com)
  - 3a
-# Assignments
+## Assignments
 
-# Final Project
+## Final Project
