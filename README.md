@@ -13,11 +13,10 @@ Candy Data [Exercise 1](candyobservation1_EAM.jpg)
 
 - 2b
 
-This is my first try for [Exercise 2b](Exercises/map2bex.jpg)
+This is my [Exercise 2b](Exercises/map2bex.jpg)
 
 [Exercise 2b](Exercises/map2bex_2.md)
 
-Link to [Google](http://www.google.com)
  - 3a
 ## Assignments
 
