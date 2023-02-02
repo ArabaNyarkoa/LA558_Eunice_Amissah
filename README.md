@@ -13,7 +13,7 @@ Candy Data [Exercise 1](candyobservation1_EAM.jpg)
 
 - 2b
 
-This is my [Exercise 2b](Exercises/map2bex.jpg)
+[Exercise 2b](Exercises/map2bex.jpg)
 
 [Exercise 2b](Exercises/map2bex_2.md)
 
