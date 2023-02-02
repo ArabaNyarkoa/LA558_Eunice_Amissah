@@ -15,7 +15,7 @@ Candy Data [Exercise 1](candyobservation1_EAM.jpg)
 
 [Exercise 2b](Exercises/map2bex.jpg)
 
-Try 2 [Exercise 2b](Exercises/map2bex_2.md)
+It has my map and other map. [Exercise 2b](Exercises/map2bex_2.md)
 
  - 3a
 ## Assignments
