@@ -1,4 +1,4 @@
-# This is my Exercixe 2 file
+# This is my Exercise 2 file
 
 This map was made for LA558
 
