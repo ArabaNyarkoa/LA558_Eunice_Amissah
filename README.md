@@ -20,6 +20,6 @@ It has my map and other map. [Exercise 2b](Exercises/map2bex_2.md)
 
  - 3a
 ## Assignments
-- Map 1 [OpenStreet](https://osm.org/go/T5~qlsl5)
+- Map 1 [OpenStreet]
 
 ## Final Project
