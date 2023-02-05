@@ -20,6 +20,6 @@ It has my map and other map. [Exercise 2b](Exercises/map2bex_2.md)
 
  - 3a
 ## Assignments
-- Map 1 [OpenStreet](https://www.openstreetmap.org/?mlat=38.9353&mlon=-95.2154#map=16/38.9353/-95.2154)
+- Map 1 [OpenStreet](https://www.openstreetmap.org/?mlat=38.9353&mlon=-95.2154#map=16/38.9353/-95.2154&layers=N)
 
 ## Final Project
