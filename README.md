@@ -23,5 +23,5 @@ It has my map and other map. [Exercise 2b](Exercises/map2bex_2.md)
 - Map 1 [OpenStreet](https://www.openstreetmap.org/?mlat=38.9353&mlon=-95.2154#map=16/38.9353/-95.2154&layers=N)
 - Map 2 [PDF Map](Assignments/Assign3a_Eunice.pdf) I used a geoprocessing tool to find trails nearest to parks and bike lanes nearest to trails. Looks a bit fuzzy.
 - Map 3 [GIS2WebPlugin](Assignments/CVAqgis2web/index.html)
-- Combined Maps [All3a](Assignments/CombinedMaps.html)
+- Combined Maps [All3a](Assignments/Combined Maps.html)
 ## Final Project
