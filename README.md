@@ -26,7 +26,7 @@ It has my map and other map. [Exercise 2b](Exercises/map2bex_2.md)
 - Combined Maps [All3a](Assignments/CombinedMaps.html)
 ### 4a
 I created a google sheet that shows basketball players, teams, states, and their chanmpionships won. I found and displayed the percentage of wins with a plot.
-I also created a map of Michigan State Senate Districts for the year 2021.
-  - [TeamsRplot](https://user-images.githubusercontent.com/123265743/221592396-a1cb87c0-f857-4a19-a2a7-ee4193d4e3cd.jpeg))
-  - [MichiganRplot](https://user-images.githubusercontent.com/123265743/221592022-067871c5-5393-4d55-b6a6-e006a70d0094.jpeg))
+I also created a map of Michigan State Senate Districts for the year 2021 in R.
+  - [TeamsRplot](https://user-images.githubusercontent.com/123265743/221592396-a1cb87c0-f857-4a19-a2a7-ee4193d4e3cd.jpeg)
+  - [MichiganRplot](https://user-images.githubusercontent.com/123265743/221592022-067871c5-5393-4d55-b6a6-e006a70d0094.jpeg)
 ## Final Project
