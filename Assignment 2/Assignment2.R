@@ -1,6 +1,6 @@
 install.packages("googlesheets4")
 library(googlesheets4)
-1
+championshipswon <- read_sheet("https://docs.google.com/spreadsheets/d/1To9HKmKv2VFyDjyyhpINylM-mKXk_VnqVuBa9KC-NGA/edit?usp=sharing")
 
 head(championshipswon)
 
@@ -10,41 +10,35 @@ totalSeasonsPlayed <-championshipswon %>%
 summarize(ChampionsWon= sum(Championships_Won))
 totalSeasonsPlayed
 
-teamsWin <- championshipswon %>%
-  group_by(Teams) %>%
-  summarize(ChampionshipsWon= sum(Championships_Won),
-            teams_players = n())
+
 view(teamsWin)
 
-nationalityPerWin <- trophieswon %>%
-  group_by(Nationality) %>%
-  summarize(TrophiesWon= sum(Trophies_Won)) %>%
-  mutate(percentWins = round(TrophiesWon / sum(TrophiesWon), 3)*100) %>%
+statesPerWin <- championshipswon %>%
+  group_by(States) %>%
+  summarize(ChampionshipsWon= sum(Championships_Won)) %>%
+  mutate(percentWins = round(ChampionshipsWon / sum(ChampionshipsWon), 3)*100) %>%
   as.data.frame()
 
-view(nationalityPerWin)
+view(statesPerWin)
 
-v1<-ggplot(data=nationalityPerWin, aes(x=Nationality, y=percentWins)) +
+v1<-ggplot(data=statesPerWin, aes(x=States, y=percentWins)) +
   geom_bar(stat="identity")
 v1
 
-v1<-ggplot(data=nationalityPerWin, aes(x=Nationality, y=percentWins)) +
-  geom_bar(stat="identity", width=0.5, color="blue", fill="white")
+v1<-ggplot(data=statesPerWin, aes(x=States, y=percentWins)) +
+  geom_bar(stat="identity", width=0.5, color="purple", fill="white")
 v1
 
-v1 + labs(title="Percent Win for Each Nationality", x ="Team's Nationality", y = "Percentage")
+v1 + labs(title="Percent Win for Each State", x ="Team's State", y = "Percentage")
 v1
 
 
 install.packages("sf")
 library("sf")
-iowaCounties_sf <- st_read("Counties.shp")
+michiganCounties_sf <- st_read("Michigan_State_Senate_Districts_2021.shp")
 
-nebraskaCounties_sf <- st_read("Nebco.shp")
-
-nebraskaCounties_sf <- st_read("SOCIO_County_CENSUS_2020.shp")
 
 ggplot() + 
-  geom_sf(data = nebraskaCounties_sf, size = 3, color = "black", fill = "yellow") + 
-  ggtitle("Nebraska Map") + 
+  geom_sf(data = michiganCounties_sf, size = 3, color = "black", fill = "blue") + 
+  ggtitle("Michigan Map") + 
   coord_sf()
