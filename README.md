@@ -24,4 +24,9 @@ It has my map and other map. [Exercise 2b](Exercises/map2bex_2.md)
 - Map 2 [PDF Map](Assignments/Assign3a_Eunice.pdf) I used a geoprocessing tool to find trails nearest to parks and bike lanes nearest to trails. Looks a bit fuzzy.
 - Map 3 [GIS2WebPlugin](Assignments/CVAqgis2web/index.html)
 - Combined Maps [All3a](Assignments/CombinedMaps.html)
+### 4a
+I created a google sheet that shows basketball players, teams, states, and their chanmpionships won. I found and displayed the percentage of wins with a plot.
+I also created a map of Michigan State Senate Districts for the year 2021.
+  - Plot Chart [Googlesheet](Assignment 2/TeamsRplot.jpeg)
+  -Michigan Map [District Map](Assignment 2/MichiganRplot)
 ## Final Project
