@@ -1,7 +1,10 @@
- # This is my Assignment 2 completed.
+ # Assignment 2
  
+This took a look at the 2022-2023 Iowa Public School K-12 English Learners (EL) by District and Grade. I ended up suing County names predominantly and some selected grades.
+
 ![This is a map I created](IowaRMap.jpeg)
 
+This map represents K-12 English Learners for selected grades in the State of Iowa, grouped on County basis.
 
 ![This is a plot I created](EnglishLearners.jpeg)
 
