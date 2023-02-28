@@ -19,14 +19,18 @@ Candy Data [Exercise 1](candyobservation1_EAM.jpg)
 It has my map and other map. [Exercise 2b](Exercises/map2bex_2.md)
 
 ## Assignments
+
 ### Assignment 1
+
 - Map 1 [OpenStreet](https://www.openstreetmap.org/?mlat=38.9353&mlon=-95.2154#map=16/38.9353/-95.2154&layers=N)
 - Map 2 [PDF Map](Assignments/Assign3a_Eunice.pdf) I used a geoprocessing tool to find trails nearest to parks and bike lanes nearest to trails. Looks a bit fuzzy.
 - Map 3 [GIS2WebPlugin](Assignments/CVAqgis2web/index.html)
 - Combined Maps [All3a](Assignments/CombinedMaps.html)
+
 ### Assignment 2
+
 I created a google sheet that shows basketball players, teams, states, and their chanmpionships won. I found and displayed the percentage of wins with a plot.
-I also created a map of Michigan State Senate Districts for the year 2021 in R.
-  - [TeamsRplot](https://user-images.githubusercontent.com/123265743/221592396-a1cb87c0-f857-4a19-a2a7-ee4193d4e3cd.jpeg)
-  - [MichiganRplot](https://user-images.githubusercontent.com/123265743/221592022-067871c5-5393-4d55-b6a6-e006a70d0094.jpeg)
+I also created a map of Iowa Public School K-12 English Learners by District and Grade
+  - [IowaPublicSchool](Assignment2/IowaRMap)
+  - [EnglishLearnersChart](Assignment2/EnglishLearners)
 ## Final Project

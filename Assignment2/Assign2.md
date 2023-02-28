@@ -4,7 +4,7 @@ This took a look at the 2022-2023 Iowa Public School K-12 English Learners (EL) 
 
 ![This is a map I created](IowaRMap.jpeg)
 
-This map represents K-12 English Learners for selected grades in the State of Iowa, grouped on County basis.
+This map represents K-12 English Learners for selected grades in the State of Iowa, grouped on County basis. A excel file was used.
 
 ![This is a plot I created](EnglishLearners.jpeg)
 
