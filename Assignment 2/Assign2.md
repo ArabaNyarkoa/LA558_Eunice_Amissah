@@ -10,4 +10,4 @@ This map represents K-12 English Learners for selected grades in the State of Io
 
 Experimented with Google sheets as well to create the chart below.
 
-![This is another plot I created using Googlesheets](EnglishLearners.jpeg)
+![This is another plot I created using Googlesheets](StateWin.jpeg)
