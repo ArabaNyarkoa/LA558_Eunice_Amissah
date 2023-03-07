@@ -15,7 +15,7 @@ I am a graduate student in the Community and Regional Planning program and obtai
 
 ## Assignments
 
-- [Assignment 1](Assignments/Assign1.md)
+- [Assignment 1](Assignments/Assign1.md) - produced an OpenStreet Map, PDF Map I used a geoprocessing tool to find trails nearest to parks and bike lanes nearest to trails in QGIS, GIS2WebPlugin, and created a Combined Maps for all three using html.
 - [Assignment 2](Assignment2/Assign2.md) -  
 - [Assignment 3](Assignment3/Assign3.md) 
 - [Assignment 4]
