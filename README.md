@@ -16,8 +16,8 @@ Candy Data [Exercise 1](candyobservation1_EAM.jpg)
 
 [Exercise 2b](Exercises/map2bex.jpg)
 
-It has my map and other map. 
-[Exercise 2b](Exercises/map2bex_2.md)
+
+[Two Maps](Exercises/map2bex_2.md)
 
 - [6a](RWorkingDirectory/Exercise6a.R)
 
