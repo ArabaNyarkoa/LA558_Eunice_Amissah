@@ -19,9 +19,9 @@ Candy Data [Exercise 1](candyobservation1_EAM.jpg)
 It has my map and other map. 
 [Exercise 2b](Exercises/map2bex_2.md)
 
-- [6a](R Working Directory/Exercise6a.R)
+- [6a](RWorkingDirectory/Exercise6a.R)
 
-- [7b](R Working Directory/ex7.html)
+- [7b](RWorkingDirectory/ex7.html)
 
 
 ## Assignments
