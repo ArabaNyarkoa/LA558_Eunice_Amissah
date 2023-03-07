@@ -24,7 +24,15 @@ I am a graduate student in the Community and Regional Planning program and obtai
 
 ### Assignment 2
 
-  - [Assignment 2](Assignment2/Assign2.md) - I created a google sheet that shows basketball players, teams, states, and their championships won. I found and displayed the percentage of wins with a plot. I also created a map of Iowa Public School K-12 English Learners by District and Grade
+  - [Assignment 2](Assignment2/Assign2.md) - I created a google sheet that shows basketball players, teams, states, and their championships won. I found and displayed the percentage of wins with a plot. I also created a map of Iowa Public School K-12 English Learners by District and Grade This took a look at the 2022-2023 Iowa Public School K-12 English Learners (EL) by District and Grade. I ended up using County names predominantly and some selected grades. Map 2
+ represents K-12 English Learners for selected grades in the State of Iowa, grouped on County basis. A excel file was used.
+
+
+### Plot
+Experimented with Google sheets as well to create the chart below.
+
+![This is another plot I created using Googlesheets](StateWin.jpeg)
+
   
   
 ### Assignment 3
