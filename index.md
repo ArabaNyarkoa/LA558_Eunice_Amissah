@@ -16,7 +16,7 @@ I am a graduate student in the Community and Regional Planning program and obtai
 ## Assignments
 
 - [Assignment 1](Assignments/Assign1.md) - produced an OpenStreet Map, PDF Map I used a geoprocessing tool to find trails nearest to parks and bike lanes nearest to trails in QGIS, GIS2WebPlugin, and created a Combined Maps for all three using html.
-- [Assignment 2](Assignment2/Assign2.md) -  
+- [Assignment 2](Assignment2/Assign2.md) - Represents Iowa Public School K-12 English Learners(EL) by District and Grade for the years 2022-2023, K-12 English Learners for selected grades for the State of Iowa and experimented with Google sheets as well to create the chart below.
 - [Assignment 3](Assignment3/Assign3.md) 
 - [Assignment 4]
 
