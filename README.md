@@ -16,11 +16,12 @@ Candy Data [Exercise 1](candyobservation1_EAM.jpg)
 
 [Exercise 2b](Exercises/map2bex.jpg)
 
-It has my map and other map. [Exercise 2b](Exercises/map2bex_2.md)
+It has my map and other map. 
+[Exercise 2b](Exercises/map2bex_2.md)
 
-- 6a
+- 6a(R Working Directory/Exercise6a.R)
 
-- 7b
+- 7b(R Working Directory/ex7.R)
 
 
 ## Assignments
