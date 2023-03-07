@@ -1,9 +1,9 @@
  # Assignment 2
  
-
-Plot 1 represents K-12 English Learners for selected grades in the State of Iowa, grouped on County basis. A excel file was used.
 ### Map 1
-![This is a map I created](IowaRMap.jpeg) - Map 1 represents Iowa Public School K-12 English Learners(EL) by District and Grade for the years 2022-2023. County names and some selected grades were used for the map. 
+Map 1 represents Iowa Public School K-12 English Learners(EL) by District and Grade for the years 2022-2023. County names and some selected grades were used for the map. 
+
+![This is a map I created](IowaRMap.jpeg)  
 
 ### Plot 1
 Plot 1 represents K-12 English Learners for selected grades in the State of Iowa, grouped on County basis. A excel file was used.
