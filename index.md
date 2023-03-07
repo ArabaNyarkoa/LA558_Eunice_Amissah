@@ -28,9 +28,8 @@ I am a graduate student in the Community and Regional Planning program and obtai
   
   
 ### Assignment 3
-- [FemaleLifeExpectancy](Assignment3/Assign3.md)
-- [HouseholdType](Assignment3/HouseholdType.jpeg)
-- [EmploymentRateinMI](Assignment3/RateofEmployment.jpeg)
+- [Assignment 3](Assignment3/Assign3.md) 
+
 
 ### Assignment 4
 
