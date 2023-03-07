@@ -12,7 +12,7 @@ For every flight scheduled, there is a reduced number recorded with the tracked 
 
 Candy Data [Exercise 1](candyobservation1_EAM.jpg)
 
-- 2b  [Exercise 2b](Exercises/map2bex.jpg) [Two Maps](Exercises/map2bex_2.md)
+- 2b  [Exercise 2b](Exercises/map2bex.jpg) plus [Two Maps](Exercises/map2bex_2.md)
 
 - [6a](RWorkingDirectory/Exercise6a.R)
 
