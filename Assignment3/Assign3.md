@@ -3,6 +3,7 @@
 ### Plot 1 
 
 This represents Female Life Expectancy at birth. This line graph used data from Ghana. The IDBR package was used to generate the plot.
+
 ![This is a plot I created](LifeExpectancy.jpeg)
 
 ### Map 1
