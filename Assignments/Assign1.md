@@ -6,4 +6,4 @@
 
 - [GIS2WebPlugin](https://arabanyarkoa.github.io/LA558_Eunice_Amissah/Assignments/CVAqgis2web/index.html)
 
-- [All3a](Assignments/CombinedMaps.html)
+- [All3a](https://arabanyarkoa.github.io/LA558_Eunice_Amissah/Assignments/CombinedMaps.html)
