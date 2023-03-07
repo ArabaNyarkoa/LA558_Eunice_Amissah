@@ -29,7 +29,7 @@ It has my map and other map. [Exercise 2b](Exercises/map2bex_2.md)
 
 ### Assignment 2
 
-I created a google sheet that shows basketball players, teams, states, and their chanmpionships won. I found and displayed the percentage of wins with a plot.
+I created a google sheet that shows basketball players, teams, states, and their championships won. I found and displayed the percentage of wins with a plot.
 I also created a map of Iowa Public School K-12 English Learners by District and Grade
   - [IowaPublicSchool](Assignment2/IowaRMap.jpeg)
   - [EnglishLearnersChart](Assignment2/EnglishLearners.jpeg)
