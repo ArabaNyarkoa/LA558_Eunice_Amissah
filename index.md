@@ -4,13 +4,13 @@ This is my LA 558 Spring 2023 Introduction to Web Mapping and Data Visualization
 I am a graduate student in the Community and Regional Planning program and obtaining a graduate GIS certification as well.
 
 ## Class Exercises
-- [1b](ex1b.md)
+- [1b](ex1b.md) - Des Moines Flight Data and M&M Candy Data
 
-- [2b](Exercises/2b/map2bex_2.md)
+- [2b](Exercises/2b/map2bex_2.md) - Map using QGIS
 
-- [6a](RWorkingDirectory/Exercise6a.R)
+- [6a](RWorkingDirectory/Exercise6a.R) - Map in R using Tidycensus
 
-- [7b](RWorkingDirectory/ex7.html)
+- [7b](RWorkingDirectory/ex7.html) - Leaflet Map in R of a point
 
 
 ## Assignments
