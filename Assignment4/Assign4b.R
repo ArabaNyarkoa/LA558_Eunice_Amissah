@@ -11,11 +11,9 @@ library(tidyverse)
 library(readxl)
 library(sf)
 
-# Set working directory to the same as this R file.
-# Read in the shapefile
+# texas Shapefile
 carCount<- st_read("TXCarRally.shp")
 
-# Set the projection to use lat and longs
 carCount <- st_transform(carCount, crs = 4326)
 
 carCount <- carCount %>% rename(count = first_name)
@@ -27,7 +25,7 @@ txmap <- leaflet() %>%
               color = "purple", fill = NA, weight = 2)
 txmap
 
-# Display only a few counties,
+# Some counties displayed
 carCount_selection1 <- carCount %>% 
   filter(CNTY_NM %in% c("Harris", "Uvalde", "Fayette"))
 
@@ -51,6 +49,7 @@ txmap
 
 
 # Both NA and Selected counties
+
 txmap <- leaflet() %>%
   setView(-99.5, 32.2, 5)  %>%
   addTiles() %>%
@@ -67,12 +66,12 @@ txmap
 carCount <- carCount %>%
   replace(is.na(.), 0)
 
-# Select the color scheme from Color Brewer
-library("RColorBrewer") #I think either Leaflet or tidyverse loads this for you
+# Select color scheme from Color Brewer
+library("RColorBrewer") 
 display.brewer.all()
 
 
-bins <- c(0, 4, 8, 12, 16, Inf)
+bins <- c(0, 2, 4, 6, 8, 10, 12, 14, Inf)
 pal <- colorBin("BuPu", domain = carCount$count, bins = bins)
 
 txmap <- leaflet() %>%
@@ -109,13 +108,14 @@ txmap <- leaflet() %>%
 txmap
 
 # Lablels
+
 labels <- sprintf(
   "<strong>%s</strong><br/>%g cars",
   carCount$CNTY_NM, carCount$count
 ) %>% lapply(htmltools::HTML)
 
 txmap <- leaflet() %>%
-  setView(-99.5, 32.2, 6)  %>%
+  setView(-99.5, 32.2, 5)  %>%
   addTiles() %>%
   addPolygons(data = carCount,
               fillColor = ~pal(count),
@@ -152,7 +152,7 @@ carCount <- carCount %>% rename(count = first_name)
 carCount <- carCount %>% replace(is.na(.), 0)
 
 display.brewer.all() # I am selecting the Reds
-bins <- c(0, 4,8,12, 16, Inf)
+bins <- c(0, 2, 4, 6, 8, 10, 12, 14, Inf)
 pal <- colorBin("BuPu", domain = carCount$count, bins = bins)
 
 labels <- sprintf(
@@ -185,4 +185,4 @@ txmap <- leaflet() %>%
             position = "bottomright")
 txmap
 
-#now export this as a web page!!!
+# Export this as a web page!!!

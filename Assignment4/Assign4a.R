@@ -91,7 +91,7 @@ map <- leaflet(CarData[1:200,]) %>%
   addMarkers(~longitude, ~latitude, clusterOptions = markerClusterOptions())
 map
 
-# One more try on all 1,000 locations
+# One more  on all 1,000 locations
 map <- leaflet(CarData) %>% 
   addProviderTiles("Stamen.TonerLite", 
                    options = providerTileOptions(minZoom = 4, maxZoom = 10))%>%
