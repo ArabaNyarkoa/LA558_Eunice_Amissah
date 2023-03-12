@@ -19,9 +19,7 @@ map <- leaflet(CarData) %>%
   addMarkers(~longitude, ~latitude)
 map
 
-# Circles might be better for this map, while at it maybe also include labels
-# a typical syntax for this is label = ~htmlEscape(Name) however we won't escape
-# instead I use the name of the data set, myData followed by a $ and var name
+
 map <- leaflet(CarData) %>% 
   addTiles() %>%
   addCircles(~longitude, ~latitude, label = CarData$car_make)

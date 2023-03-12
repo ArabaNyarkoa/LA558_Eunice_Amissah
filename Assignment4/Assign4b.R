@@ -11,7 +11,7 @@ library(tidyverse)
 library(readxl)
 library(sf)
 
-# texas Shapefile
+# Texas Shapefile
 carCount<- st_read("TXCarRally.shp")
 
 carCount <- st_transform(carCount, crs = 4326)
@@ -107,7 +107,7 @@ txmap <- leaflet() %>%
   )
 txmap
 
-# Lablels
+# Labels
 
 labels <- sprintf(
   "<strong>%s</strong><br/>%g cars",
@@ -151,7 +151,7 @@ carCount <- st_transform(carCount, crs = 4326)
 carCount <- carCount %>% rename(count = first_name)
 carCount <- carCount %>% replace(is.na(.), 0)
 
-display.brewer.all() # I am selecting the Reds
+display.brewer.all() 
 bins <- c(0, 2, 4, 6, 8, 10, 12, 14, Inf)
 pal <- colorBin("BuPu", domain = carCount$count, bins = bins)
 

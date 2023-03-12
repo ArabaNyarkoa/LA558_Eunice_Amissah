@@ -42,11 +42,12 @@ bounds <- df_sf %>%
 bounds <- carCount %>% 
   st_bbox() %>% 
   as.character()
-fitBounds(txmap, bounds[1], bounds[2], bounds[3], bounds[4])
+#fitBounds(txmap, bounds[1], bounds[2], bounds[3], bounds[4])
 
 txmap <- leaflet() %>%
   setView(-99.5, 32.2, 5)  %>%
   addTiles() %>%
+  addMarkers(data = df_sf) %>%
   addPolygons(data = carCount,
               fillColor = ~pal(count),
               weight = 0.5,
@@ -54,10 +55,20 @@ txmap <- leaflet() %>%
               color = "grey",
               dashArray = "1",
               fillOpacity = 0.8,  
-              highlightOptions = highlightOptions(weight = 2,color = "#666",dashArray = "",fillOpacity = 0.7,bringToFront = TRUE),
+              highlightOptions = highlightOptions(
+                weight = 2,
+                color = "#666",
+                dashArray = "",
+                fillOpacity = 0.7,
+                bringToFront = TRUE),
               label = labels,
-              labelOptions = labelOptions(style = list("font-weight" = "normal", padding = "3px 8px"),
+              labelOptions = labelOptions(
+                style = list("font-weight" = "normal", padding = "3px 8px"),
                 textsize = "10px",
                 direction = "auto")) %>% addLegend(pal = pal, values = count, opacity = 0.7, title = "Cars",
-            position = "bottomright")
+                                                  position = "bottomright")
 txmap
+
+
+txmap %>% addLegend(pal = pal, values = count, opacity = 0.7, title = "Cars",
+                    position = "bottomright")
