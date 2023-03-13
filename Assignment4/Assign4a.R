@@ -62,7 +62,7 @@ map <- leaflet(CarData) %>%
   addLayersControl(baseGroups = c("OSM", "Terrain", "Water Color", "Street", "Mapnik", "Landscape"),
                    options = layersControlOptions(collapsed = TRUE)) %>%
   addCircles(~longitude, ~latitude, popup= paste("<strong>", 
-                                                 CarData$first_name, "</strong><br>", "Shirt Size: ", 
+                                                 CarData$first_name, "</strong><br>", "Car Model Year: ", 
                                                  CarData$car_year), weight = 8, radius=40, 
              color="purple", stroke = TRUE, fillOpacity = 1.0)
 map
