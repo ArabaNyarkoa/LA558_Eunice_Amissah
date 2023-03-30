@@ -12,6 +12,8 @@ I am a graduate student in the Community and Regional Planning program and obtai
 
 - [7b](RWorkingDirectory/ex7.html) - Leaflet Map in R of a point
 
+- [10b](RWorkingDirectory/ex7.html) - Leaflet Map in R of a point
+
 
 ## Assignments
 
