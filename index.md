@@ -12,7 +12,7 @@ I am a graduate student in the Community and Regional Planning program and obtai
 
 - [7b](RWorkingDirectory/ex7.html) - Leaflet Map in R of a point
 
-- [10b](RWorkingDirectory/ex7.html) - Leaflet Map in R of a point
+- [10b](Exercises/10b/10b_exercise.html) - US State Population in Tableau
 
 
 ## Assignments
