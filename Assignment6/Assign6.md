@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html> 
 
-<title>AAssignment 6</title> 
+<title>Assignment 6</title> 
 
 <body> 
  
