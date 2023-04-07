@@ -22,7 +22,7 @@
     <WindowsPersistSimpleIdentifiers />
     <WorksheetBackgroundTransparency />
   </document-format-change-manifest>
-  <repository-location id='Assign6_16808936245000' path='/workbooks' revision='1.5' />
+  <repository-location id='Assign6_16808936245000' path='/workbooks' revision='1.7' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -33,512 +33,6 @@
     </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
   </_.fcp.AnimationOnByDefault.false...style>
   <datasources>
-    <datasource caption='Michigan_State_Senate_Districts_2021' inline='true' name='federated.0r2tog30f2k7tr1fzkf7e0fefjfn' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='Michigan_State_Senate_Districts_2021' name='ogrdirect.0wvhrc81xcztzm17j3xp21itxv76'>
-            <connection class='ogrdirect' directory='C:/Users/Eunice/Desktop/Spring2023/Web Mapping and Data Visualization/LA558_Eunice_Amissah/Assignment6' filename='Michigan_State_Senate_Districts_2021.shp' password='' server='' tablename='' workgroup-auth-mode='as-is' />
-          </named-connection>
-          <named-connection caption='Counties_(v17a)' name='ogrdirect.1g2zy570s2tmjo1f2herg04px8vh'>
-            <connection class='ogrdirect' directory='C:/Users/Eunice/Desktop/Spring2023/Web Mapping and Data Visualization/LA558_Eunice_Amissah/Assignment3' filename='Counties_(v17a).shp' password='' server='' workgroup-auth-mode='as-is' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='ogrdirect.0wvhrc81xcztzm17j3xp21itxv76' name='Michigan_State_Senate_Districts_2021.shp' table='[Michigan_State_Senate_Districts_2021.shp]' type='table'>
-          <columns>
-            <column datatype='integer' name='OBJECTID' ordinal='0' />
-            <column datatype='string' name='NAME' ordinal='1' />
-            <column datatype='string' name='LABEL' ordinal='2' />
-            <column datatype='string' name='TYPE' ordinal='3' />
-            <column datatype='string' name='LEGISLATOR' ordinal='4' />
-            <column datatype='string' name='PARTY' ordinal='5' />
-            <column datatype='string' name='URL' ordinal='6' />
-            <column datatype='real' name='SQKM' ordinal='7' />
-            <column datatype='real' name='SQMILES' ordinal='8' />
-            <column datatype='real' name='ACRES' ordinal='9' />
-            <column datatype='string' name='VER' ordinal='10' />
-            <column datatype='string' name='LAYOUT' ordinal='11' />
-            <column datatype='string' name='PENINSULA' ordinal='12' />
-            <column datatype='real' name='ShapeSTAre' ordinal='13' />
-            <column datatype='real' name='ShapeSTLen' ordinal='14' />
-            <column datatype='spatial' name='Geometry' ordinal='15' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='ogrdirect.0wvhrc81xcztzm17j3xp21itxv76' name='Michigan_State_Senate_Districts_2021.shp' table='[Michigan_State_Senate_Districts_2021.shp]' type='table'>
-          <columns>
-            <column datatype='integer' name='OBJECTID' ordinal='0' />
-            <column datatype='string' name='NAME' ordinal='1' />
-            <column datatype='string' name='LABEL' ordinal='2' />
-            <column datatype='string' name='TYPE' ordinal='3' />
-            <column datatype='string' name='LEGISLATOR' ordinal='4' />
-            <column datatype='string' name='PARTY' ordinal='5' />
-            <column datatype='string' name='URL' ordinal='6' />
-            <column datatype='real' name='SQKM' ordinal='7' />
-            <column datatype='real' name='SQMILES' ordinal='8' />
-            <column datatype='real' name='ACRES' ordinal='9' />
-            <column datatype='string' name='VER' ordinal='10' />
-            <column datatype='string' name='LAYOUT' ordinal='11' />
-            <column datatype='string' name='PENINSULA' ordinal='12' />
-            <column datatype='real' name='ShapeSTAre' ordinal='13' />
-            <column datatype='real' name='ShapeSTLen' ordinal='14' />
-            <column datatype='spatial' name='Geometry' ordinal='15' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='column'>
-            <remote-name>OBJECTID</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[OBJECTID]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>OBJECTID</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>NAME</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[NAME]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>NAME</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>LABEL</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[LABEL]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>LABEL</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>TYPE</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[TYPE]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>TYPE</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>LEGISLATOR</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[LEGISLATOR]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>LEGISLATOR</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>PARTY</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[PARTY]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>PARTY</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>URL</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[URL]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>URL</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SQKM</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[SQKM]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>SQKM</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>SQMILES</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[SQMILES]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>SQMILES</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ACRES</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[ACRES]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>ACRES</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>VER</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[VER]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>VER</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>LAYOUT</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[LAYOUT]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>LAYOUT</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>PENINSULA</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[PENINSULA]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>PENINSULA</remote-alias>
-            <ordinal>12</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='binary' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ShapeSTAre</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[ShapeSTAre]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>ShapeSTAre</remote-alias>
-            <ordinal>13</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>ShapeSTLen</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[ShapeSTLen]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>ShapeSTLen</remote-alias>
-            <ordinal>14</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Geometry</remote-name>
-            <remote-type>8</remote-type>
-            <local-name>[Geometry]</local-name>
-            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
-            <remote-alias>Geometry</remote-alias>
-            <ordinal>15</ordinal>
-            <local-type>spatial</local-type>
-            <aggregation>Collect</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Acres' datatype='real' name='[ACRES]' role='measure' type='quantitative' />
-      <column caption='Label' datatype='string' name='[LABEL]' role='dimension' type='nominal' />
-      <column caption='Layout' datatype='string' hidden='true' name='[LAYOUT]' role='dimension' type='nominal' />
-      <column caption='Legislator' datatype='string' name='[LEGISLATOR]' role='dimension' type='nominal' />
-      <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
-      <column caption='Objectid' datatype='integer' name='[OBJECTID]' role='measure' type='quantitative' />
-      <column caption='Party' datatype='string' name='[PARTY]' role='dimension' type='nominal' />
-      <column caption='Peninsula' datatype='string' name='[PENINSULA]' role='dimension' type='nominal' />
-      <column caption='Sqkm' datatype='real' name='[SQKM]' role='measure' type='quantitative' />
-      <column caption='Sqmiles' datatype='real' name='[SQMILES]' role='measure' type='quantitative' />
-      <column caption='Shape ST Are' datatype='real' name='[ShapeSTAre]' role='measure' type='quantitative' />
-      <column caption='Shape ST Len' datatype='real' name='[ShapeSTLen]' role='measure' type='quantitative' />
-      <column caption='Type' datatype='string' name='[TYPE]' role='dimension' type='nominal' />
-      <column datatype='string' hidden='true' name='[URL]' role='dimension' type='nominal' />
-      <column datatype='string' hidden='true' name='[VER]' role='dimension' type='nominal' />
-      <_.fcp.ObjectModelTableType.true...column caption='Michigan_State_Senate_Districts_2021.shp' datatype='table' name='[__tableau_internal_object_id__].[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]' role='measure' type='quantitative' />
-      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
-        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Eunice/Desktop/Spring2023/Web Mapping and Data Visualization/LA558_Eunice_Amissah/Assignment6/Michigan_State_Senate_Districts_2021.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/07/2023 06:52:58 PM' username='tableau_internal_user'>
-          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <refresh>
-            <refresh-event add-from-file-path='Michigan_State_Senate_Districts_2021' increment-value='%null%' refresh-type='create' rows-inserted='38' timestamp-start='2023-04-07 18:52:57.074' />
-          </refresh>
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>OBJECTID</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[OBJECTID]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>OBJECTID</remote-alias>
-              <ordinal>0</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>38</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>NAME</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[NAME]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>NAME</remote-alias>
-              <ordinal>1</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>38</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>LABEL</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[LABEL]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>LABEL</remote-alias>
-              <ordinal>2</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>38</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>TYPE</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[TYPE]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>TYPE</remote-alias>
-              <ordinal>3</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>1</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>LEGISLATOR</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[LEGISLATOR]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>LEGISLATOR</remote-alias>
-              <ordinal>4</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>38</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>PARTY</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[PARTY]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>PARTY</remote-alias>
-              <ordinal>5</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>2</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>SQKM</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[SQKM]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>SQKM</remote-alias>
-              <ordinal>6</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>38</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>SQMILES</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[SQMILES]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>SQMILES</remote-alias>
-              <ordinal>7</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>38</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>ACRES</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[ACRES]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>ACRES</remote-alias>
-              <ordinal>8</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>38</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>PENINSULA</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[PENINSULA]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>PENINSULA</remote-alias>
-              <ordinal>9</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>3</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='0' name='binary' />
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>ShapeSTAre</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[ShapeSTAre]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>ShapeSTAre</remote-alias>
-              <ordinal>10</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>38</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>ShapeSTLen</remote-name>
-              <remote-type>5</remote-type>
-              <local-name>[ShapeSTLen]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>ShapeSTLen</remote-alias>
-              <ordinal>11</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>real</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>38</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Geometry</remote-name>
-              <remote-type>128</remote-type>
-              <local-name>[Geometry]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Geometry</remote-alias>
-              <ordinal>12</ordinal>
-              <family>Michigan_State_Senate_Districts_2021.shp</family>
-              <local-type>spatial</local-type>
-              <aggregation>Collect</aggregation>
-              <approx-count>38</approx-count>
-              <contains-null>true</contains-null>
-              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='Michigan_State_Senate_Districts_2021.shp' id='Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE'>
-            <properties context=''>
-              <relation connection='ogrdirect.0wvhrc81xcztzm17j3xp21itxv76' name='Michigan_State_Senate_Districts_2021.shp' table='[Michigan_State_Senate_Districts_2021.shp]' type='table'>
-                <columns>
-                  <column datatype='integer' name='OBJECTID' ordinal='0' />
-                  <column datatype='string' name='NAME' ordinal='1' />
-                  <column datatype='string' name='LABEL' ordinal='2' />
-                  <column datatype='string' name='TYPE' ordinal='3' />
-                  <column datatype='string' name='LEGISLATOR' ordinal='4' />
-                  <column datatype='string' name='PARTY' ordinal='5' />
-                  <column datatype='string' name='URL' ordinal='6' />
-                  <column datatype='real' name='SQKM' ordinal='7' />
-                  <column datatype='real' name='SQMILES' ordinal='8' />
-                  <column datatype='real' name='ACRES' ordinal='9' />
-                  <column datatype='string' name='VER' ordinal='10' />
-                  <column datatype='string' name='LAYOUT' ordinal='11' />
-                  <column datatype='string' name='PENINSULA' ordinal='12' />
-                  <column datatype='real' name='ShapeSTAre' ordinal='13' />
-                  <column datatype='real' name='ShapeSTLen' ordinal='14' />
-                  <column datatype='spatial' name='Geometry' ordinal='15' />
-                </columns>
-              </relation>
-            </properties>
-            <properties context='extract'>
-              <relation name='Extract' table='[Extract].[Extract]' type='table' />
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
     <datasource caption='Counties_(v17a)' inline='true' name='federated.0g3t75j0xfc8tq13iqdcn0x87ul7' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -1401,6 +895,512 @@
         </relationships>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
+    <datasource caption='Michigan_State_Senate_Districts_2021' inline='true' name='federated.0r2tog30f2k7tr1fzkf7e0fefjfn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Michigan_State_Senate_Districts_2021' name='ogrdirect.0wvhrc81xcztzm17j3xp21itxv76'>
+            <connection class='ogrdirect' directory='C:/Users/Eunice/Desktop/Spring2023/Web Mapping and Data Visualization/LA558_Eunice_Amissah/Assignment6' filename='Michigan_State_Senate_Districts_2021.shp' password='' server='' tablename='' workgroup-auth-mode='as-is' />
+          </named-connection>
+          <named-connection caption='Counties_(v17a)' name='ogrdirect.1g2zy570s2tmjo1f2herg04px8vh'>
+            <connection class='ogrdirect' directory='C:/Users/Eunice/Desktop/Spring2023/Web Mapping and Data Visualization/LA558_Eunice_Amissah/Assignment3' filename='Counties_(v17a).shp' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='ogrdirect.0wvhrc81xcztzm17j3xp21itxv76' name='Michigan_State_Senate_Districts_2021.shp' table='[Michigan_State_Senate_Districts_2021.shp]' type='table'>
+          <columns>
+            <column datatype='integer' name='OBJECTID' ordinal='0' />
+            <column datatype='string' name='NAME' ordinal='1' />
+            <column datatype='string' name='LABEL' ordinal='2' />
+            <column datatype='string' name='TYPE' ordinal='3' />
+            <column datatype='string' name='LEGISLATOR' ordinal='4' />
+            <column datatype='string' name='PARTY' ordinal='5' />
+            <column datatype='string' name='URL' ordinal='6' />
+            <column datatype='real' name='SQKM' ordinal='7' />
+            <column datatype='real' name='SQMILES' ordinal='8' />
+            <column datatype='real' name='ACRES' ordinal='9' />
+            <column datatype='string' name='VER' ordinal='10' />
+            <column datatype='string' name='LAYOUT' ordinal='11' />
+            <column datatype='string' name='PENINSULA' ordinal='12' />
+            <column datatype='real' name='ShapeSTAre' ordinal='13' />
+            <column datatype='real' name='ShapeSTLen' ordinal='14' />
+            <column datatype='spatial' name='Geometry' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='ogrdirect.0wvhrc81xcztzm17j3xp21itxv76' name='Michigan_State_Senate_Districts_2021.shp' table='[Michigan_State_Senate_Districts_2021.shp]' type='table'>
+          <columns>
+            <column datatype='integer' name='OBJECTID' ordinal='0' />
+            <column datatype='string' name='NAME' ordinal='1' />
+            <column datatype='string' name='LABEL' ordinal='2' />
+            <column datatype='string' name='TYPE' ordinal='3' />
+            <column datatype='string' name='LEGISLATOR' ordinal='4' />
+            <column datatype='string' name='PARTY' ordinal='5' />
+            <column datatype='string' name='URL' ordinal='6' />
+            <column datatype='real' name='SQKM' ordinal='7' />
+            <column datatype='real' name='SQMILES' ordinal='8' />
+            <column datatype='real' name='ACRES' ordinal='9' />
+            <column datatype='string' name='VER' ordinal='10' />
+            <column datatype='string' name='LAYOUT' ordinal='11' />
+            <column datatype='string' name='PENINSULA' ordinal='12' />
+            <column datatype='real' name='ShapeSTAre' ordinal='13' />
+            <column datatype='real' name='ShapeSTLen' ordinal='14' />
+            <column datatype='spatial' name='Geometry' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>OBJECTID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OBJECTID]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>OBJECTID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LABEL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LABEL]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>LABEL</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TYPE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TYPE]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>TYPE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LEGISLATOR</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LEGISLATOR]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>LEGISLATOR</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PARTY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PARTY]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>PARTY</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>URL</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[URL]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>URL</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SQKM</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SQKM]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>SQKM</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SQMILES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SQMILES]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>SQMILES</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ACRES]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>ACRES</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[VER]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>VER</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAYOUT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LAYOUT]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>LAYOUT</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PENINSULA</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PENINSULA]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>PENINSULA</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ShapeSTAre</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ShapeSTAre]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>ShapeSTAre</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ShapeSTLen</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ShapeSTLen]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>ShapeSTLen</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[Michigan_State_Senate_Districts_2021.shp]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Acres' datatype='real' name='[ACRES]' role='measure' type='quantitative' />
+      <column caption='Label' datatype='string' name='[LABEL]' role='dimension' type='nominal' />
+      <column caption='Layout' datatype='string' hidden='true' name='[LAYOUT]' role='dimension' type='nominal' />
+      <column caption='Legislator' datatype='string' name='[LEGISLATOR]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+      <column caption='Objectid' datatype='integer' name='[OBJECTID]' role='measure' type='quantitative' />
+      <column caption='Party' datatype='string' name='[PARTY]' role='dimension' type='nominal' />
+      <column caption='Peninsula' datatype='string' name='[PENINSULA]' role='dimension' type='nominal' />
+      <column caption='Sqkm' datatype='real' name='[SQKM]' role='measure' type='quantitative' />
+      <column caption='Sqmiles' datatype='real' name='[SQMILES]' role='measure' type='quantitative' />
+      <column caption='Shape ST Are' datatype='real' name='[ShapeSTAre]' role='measure' type='quantitative' />
+      <column caption='Shape ST Len' datatype='real' name='[ShapeSTLen]' role='measure' type='quantitative' />
+      <column caption='Type' datatype='string' name='[TYPE]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[URL]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[VER]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Michigan_State_Senate_Districts_2021.shp' datatype='table' name='[__tableau_internal_object_id__].[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Eunice/Desktop/Spring2023/Web Mapping and Data Visualization/LA558_Eunice_Amissah/Assignment6/Michigan_State_Senate_Districts_2021.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/07/2023 06:52:58 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Michigan_State_Senate_Districts_2021' increment-value='%null%' refresh-type='create' rows-inserted='38' timestamp-start='2023-04-07 18:52:57.074' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>OBJECTID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[OBJECTID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OBJECTID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NAME</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[NAME]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NAME</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LABEL</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[LABEL]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LABEL</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TYPE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[TYPE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TYPE</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LEGISLATOR</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[LEGISLATOR]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LEGISLATOR</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PARTY</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PARTY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PARTY</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SQKM</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SQKM]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SQKM</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SQMILES</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[SQMILES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SQMILES</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ACRES</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ACRES]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ACRES</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PENINSULA</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PENINSULA]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PENINSULA</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ShapeSTAre</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ShapeSTAre]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ShapeSTAre</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ShapeSTLen</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ShapeSTLen]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ShapeSTLen</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Geometry</remote-name>
+              <remote-type>128</remote-type>
+              <local-name>[Geometry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Geometry</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Michigan_State_Senate_Districts_2021.shp</family>
+              <local-type>spatial</local-type>
+              <aggregation>Collect</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Michigan_State_Senate_Districts_2021.shp' id='Michigan_State_Senate_Districts_2021.shp_0EEF7A946B744AE5BE12DB75540274CE'>
+            <properties context=''>
+              <relation connection='ogrdirect.0wvhrc81xcztzm17j3xp21itxv76' name='Michigan_State_Senate_Districts_2021.shp' table='[Michigan_State_Senate_Districts_2021.shp]' type='table'>
+                <columns>
+                  <column datatype='integer' name='OBJECTID' ordinal='0' />
+                  <column datatype='string' name='NAME' ordinal='1' />
+                  <column datatype='string' name='LABEL' ordinal='2' />
+                  <column datatype='string' name='TYPE' ordinal='3' />
+                  <column datatype='string' name='LEGISLATOR' ordinal='4' />
+                  <column datatype='string' name='PARTY' ordinal='5' />
+                  <column datatype='string' name='URL' ordinal='6' />
+                  <column datatype='real' name='SQKM' ordinal='7' />
+                  <column datatype='real' name='SQMILES' ordinal='8' />
+                  <column datatype='real' name='ACRES' ordinal='9' />
+                  <column datatype='string' name='VER' ordinal='10' />
+                  <column datatype='string' name='LAYOUT' ordinal='11' />
+                  <column datatype='string' name='PENINSULA' ordinal='12' />
+                  <column datatype='real' name='ShapeSTAre' ordinal='13' />
+                  <column datatype='real' name='ShapeSTLen' ordinal='14' />
+                  <column datatype='spatial' name='Geometry' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
   </datasources>
   <mapsources>
     <mapsource name='Tableau' />
@@ -1821,8 +1821,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1300' minheight='1300' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='37' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='36' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='43' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='42' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone forceUpdate='true' h='7750' id='9' type-v2='text' w='76900' x='12200' y='1125'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='11'>Michigan Senate, Health Ranking, and School Dropouts.</run>
@@ -1927,7 +1927,17 @@
                       </worksheet>
                     </capturedDeltas>
                   </story-point>
-                  <story-point caption='Legislators Party (D/R)- ' captured-sheet='Party of Legislators' id='2'>
+                  <story-point caption='Legislators Party (D/R)' captured-sheet='Party of Legislators' id='2'>
+                    <currentDeltas>
+                      <worksheet name='Party of Legislators'>
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <encoding attr='space' class='0' field='[federated.0g3t75j0xfc8tq13iqdcn0x87ul7].[Latitude (generated)]' field-type='quantitative' max='6117353.6815461097' min='4966468.6875733826' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                            <encoding attr='space' class='0' field='[federated.0g3t75j0xfc8tq13iqdcn0x87ul7].[Longitude (generated)]' field-type='quantitative' max='-8269786.790346602' min='-10471835.207906974' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                          </style-rule>
+                        </style>
+                      </worksheet>
+                    </currentDeltas>
                     <capturedDeltas>
                       <worksheet name='Party of Legislators'>
                         <style delta-type='added'>
@@ -3045,267 +3055,287 @@
     </thumbnail>
     <thumbnail height='192' name='State of  Michigan Data' width='192'>
       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
-      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
+      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
+      upqaac66PPz/9SvpBCIcuJwAAAAASUVORK5CYII=
     </thumbnail>
   </thumbnails>
 </workbook>
