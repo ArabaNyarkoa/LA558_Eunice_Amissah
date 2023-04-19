@@ -23,7 +23,7 @@ I am a graduate student in the Community and Regional Planning program and obtai
 
 - [Assignment 3](Assignment3/Assign3.md) - Created 2 maps for the State of Michigan and a plot for Ghana.
 
-- [Assignment 4](Assignment4/Assign4All.html) - Leaftlet Maps of Texas
+- [Assignment 4](https://arabanyarkoa.github.io/LA558_Eunice_Amissah/Assignment4/Assign4All.html) - Leaftlet Maps of Texas
 
 - [Assignment 6](https://arabanyarkoa.github.io/LA558_Eunice_Amissah/Assignment6/Assign6.html) - Tableau Story for the State of Michigan
 
