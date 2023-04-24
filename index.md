@@ -27,5 +27,7 @@ I am a graduate student in the Community and Regional Planning program and obtai
 
 - [Assignment 6](https://arabanyarkoa.github.io/LA558_Eunice_Amissah/Assignment6/Assign6.html) - Tableau Story for the State of Michigan
 
+- [Assignment 7](https://arabanyarkoa.github.io/LA558_Eunice_Amissah/Assignment7/Assign7.html) - Tableau Dashboard for the State of California
+
 ## Final Project
 
