@@ -31,5 +31,5 @@ I am a graduate student in the Community and Regional Planning program and obtai
 
 ## Final Project
 - [Project Proposal](FinalProject558/ProjectProposal.md)
-- [Assessing Homelessness in the United States](https://public.tableau.com/views/US_Homelessness_2007_2020/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+- [Assessing Homelessness in the United States](FinalProject558/FinalProject.html)
 
