@@ -31,5 +31,5 @@ I am a graduate student in the Community and Regional Planning program and obtai
 
 ## Final Project
 - [Project Proposal](FinalProject558/ProjectProposal.md)
-- [Assessing Homelessness in the United States](FinalProject558/FinalProject.html)
+- [Assessing Homelessness in the United States](https://arabanyarkoa.github.io/LA558_Eunice_Amissah/FinalProject558/FinalProject.html)
 
