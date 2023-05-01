@@ -47,8 +47,12 @@ o Unfamiliarity with Tableau will be one of the challenges I will face as a firs
 ## Timeline
 
 I hope to accomplish the following tasks on the following dates:
+
 •	Apr 5 – Data collected
+
 •	Apr 14 – Data cleaned and loaded within Tableau
+
 •	Apr 21 – Start creating visuals in Tableau
+
 •	Apr 30 – Completed Project
 
