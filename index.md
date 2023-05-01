@@ -30,6 +30,6 @@ I am a graduate student in the Community and Regional Planning program and obtai
 - [Assignment 7](https://arabanyarkoa.github.io/LA558_Eunice_Amissah/Assignment7/Assign7.html) - Tableau Dashboard for the State of California
 
 ## Final Project
-- [ProjectProposal](LA558_Eunice_Amissah/FinalProject558/ProjectProposal.md)
+- [ProjectProposal](FinalProject558/ProjectProposal.md)
 - [Assessing Homelessness in the United States](https://public.tableau.com/views/US_Homelessness_2007_2020/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
