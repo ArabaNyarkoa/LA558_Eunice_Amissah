@@ -29,8 +29,11 @@ o	whether or not these people were sheltered or unsheltered.
 
 ## Inspiration
 I am currently working on an independent study on homelessness. I decided to look for similar projects and literature done that delve into homelessness and visuals that help put it in perspective. The following resources helped inspire the project:
+
 o	Homelessness Resources | HUD.gov / U.S. Department of Housing and Urban Development (HUD)
+
 o	Lee, B. A., Shinn, M., & Culhane, D. P. (2021). Homelessness as a Moving Target. The ANNALS of the American Academy of Political and Social Science, 693(1), 8–26. https://doi.org/10.1177/0002716221997038
+
 o	Interacting with HUD Homelessness Data in Tableau | by Emily A. Halford | Medium
 
 ## Potential Challenges
