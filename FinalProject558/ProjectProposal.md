@@ -1,6 +1,6 @@
-# Eunice Amissah-Mensah
+## Eunice Amissah-Mensah
 
-# Assessing Homelessness in the United States
+## Assessing Homelessness in the United States
 
 ## Abstract
 Homelessness is a complex issue that affects millions of people in the United States. It is caused by a combination of factors including poverty, lack of affordable housing, job loss, and mental illness. Homelessness disproportionately affects specific populations, such as veterans, families with children, and individuals experiencing chronic homelessness. The impact of homelessness extends beyond just housing insecurity, it affects physical and mental health, access to education and employment opportunities, and overall quality of life. Addressing homelessness requires a comprehensive and integrated approach that includes access to affordable housing, healthcare, education, and job training. Addressing homelessness is critical for ensuring the well-being and stability of individuals and communities. This project seeks to visualize places where categories of homelessness are prevalent with the help of  Tableau.
